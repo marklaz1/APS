@@ -13,7 +13,7 @@
 <h3><a href="https://github.com/marklaz1/APS/blob/main/paymentRequest.php">See .PHP code here</a></h3>
 <h3><a href="https://ap-gateway.mastercard.com/api/documentation/integrationGuidelines/hostedCheckout/integrationModelHostedCheckout.html?locale=en_US">MPGS Hosted Checkout Integration spec</a></h3>
 <form action="paymentRequest.php" method="post">
-OrderId: <input type="text" name="orderId" value="orderno1"><br>
+Order ID: <input type="text" name="orderId" value="orderno1"><br>
 Amount: <input type="text" name="amount" value="123.45"><br>
 <input type="submit" value="pay">
 </form>
