@@ -1,4 +1,11 @@
-<?php
+<!doctype html>
+<html>
+    <head>
+	</head>
+	<body>
+	 <h2>African Payment Solutions : Mastercard Payment Gateway - Hosted Payment Page result template</h2>
+<h3><a href="https://github.com/marklaz1/APS/blob/main/paymentResult.php">See .PHP code here</a></h3> 
+	<?php
 /**
  * Simple cURL request script
  *
@@ -7,6 +14,8 @@
  *   php curl.php
  */
  
+
+
 $orderId =  $_GET["orderId"];
 
 $postRequest = http_build_query(array(	
@@ -71,3 +80,5 @@ else {
 	echo "<hr>transaction_receipt : $transaction_receipt<br>";
 }
 ?>
+</body>
+</html>

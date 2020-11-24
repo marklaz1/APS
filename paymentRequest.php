@@ -9,7 +9,8 @@
         data-afterRedirect="restorePageState">
 		</script>
 
-<h2>African Payment Solutions : Mastercard Payment Gateway - Hosted Payment Page template</h2>
+<h2>African Payment Solutions : Mastercard Payment Gateway - Hosted Payment Page request template</h2>
+<h3><a href="https://github.com/marklaz1/APS/blob/main/paymentRequest.php">See .PHP code here</a></h3>
 <form action="paymentRequest.php" method="post">
 OrderId: <input type="text" name="orderId" value="orderno1"><br>
 Amount: <input type="text" name="amount" value="123.45"><br>
@@ -139,11 +140,4 @@ else {
 
         </script>
     </head>
-    <body>
-
- <!--
-      <input type="button" value="Payment checkout" onclick="Checkout.showLightbox();" />
-      <input type="button" value="Payment checkout" onclick="Checkout.showPaymentPage();" />
-    -->
-    </body>
  </html>
